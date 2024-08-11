@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'JosefinSans';
+  src: url(../src/assets/JosefinSans-VariableFont_wght.ttf);
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url(../src/assets/images/bg-pattern-desktop.svg);
+  background-position: center;
+  background-size:contain ;
+  font-family: 'JosefinSans';
+}
+@media screen and (max-width: 375px) {
+  #root{
+    flex-direction: column-reverse;
+    padding-top:80px ;
+  }
+}

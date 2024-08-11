@@ -1,0 +1,70 @@
+#leftdiv{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5% 15%;
+}
+#logo{
+    width: 150px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0px;
+    letter-spacing: 10px;
+    color: hsl(0, 6%, 24%);
+}
+p{
+    font-size: 16px;
+    color:hsl(0, 36%, 70%) ;
+}
+#we{
+    margin-top: 100px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+#mail{
+    display: flex;
+    width: 100%;
+}
+button{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 36%, 70%) ;
+    position: relative;
+    right: 45px;
+    border: none;
+    border-radius: 50px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: solid 1px lightgray;
+    border-radius: 50px;
+    color: hsl(0, 36%, 70%);
+    font-size: 10px;
+    background-color: transparent;
+    padding-left: 5%;
+}
+@media screen and (max-width: 375px) {
+    #leftdiv{
+        width: 100%;
+        flex: 1;
+        align-items: center;
+        text-align: center;
+    }
+    #logo{
+        position: absolute;
+        top: 20px;left: 20px;
+    }
+    #we{
+        margin-top: 20px;
+    }
+
+}

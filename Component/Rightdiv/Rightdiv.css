@@ -1,0 +1,16 @@
+#rightdiv{
+    width: 40%;
+    height: 100%;
+    background-image: url(../../src/assets/images/hero-desktop.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+@media screen and (max-width: 375px) {
+    #rightdiv{
+        width: 100%;
+        height: 30%;
+        background-image: url(../../src/assets/images/hero-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
